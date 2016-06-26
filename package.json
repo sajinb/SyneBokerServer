@@ -1,0 +1,27 @@
+{
+  "name": "synebroker",
+  "version": "1.0.0",
+  "description": "Alexa voice app for trading",
+  "main": "server.js",
+  "dependencies": {
+    "alexa-app-server": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "no test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajinb/SyneBokerServer.git"
+  },
+  "keywords": [
+    "synebroker"
+  ],
+  "author": "Sajin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sajinb/SyneBokerServer/issues"
+  },
+  "homepage": "https://github.com/sajinb/SyneBokerServer#readme"
+}
