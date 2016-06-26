@@ -1,0 +1,3 @@
+[submodule "apps/SyneBroker"]
+	path = apps/SyneBroker
+	url = https://github.com/sajinb/SyneBroker.git
