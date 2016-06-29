@@ -3,7 +3,7 @@
 <html>
     <head>
         <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
-		<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+		<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
         <script type='text/javascript'>
 		var connectionOptions =  {
             "force new connection" : true,
@@ -15,7 +15,7 @@
     , 'jsonp-polling']
         };
 
-                var socket = io('https://synebroker.herokuapp.com/');
+                var socket = io();
                  // optionally use io('http://localhost:3000');
                  // but make *SURE* it matches the jScript src
                 socket.on ('Server 2 Client Message',
